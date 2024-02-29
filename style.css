@@ -37,9 +37,9 @@ image{
         background-color:darkturquoise;
         color: #000;
         border-radius: 25%;
-        padding:10px ;
+        padding:40px ;
         border: none;
-
+height: 20px;
         
     }
    #image{
@@ -66,7 +66,8 @@ padding-left: 90px;
 text-justify: auto;
 padding: auto;
 display: flex;
-grid-template-rows: subgrid;
+justify-items: end;
+
 
 
 
@@ -85,7 +86,6 @@ grid-template-rows: subgrid;
         text-align: center;
         background-color: white;
         color: black;
-        float: left;
         flex: 50%;
     }
    #image-container{
@@ -122,6 +122,9 @@ display: contents ;
 .main{
     align-items: start;
     padding-left: auto;
+    justify-content: flex-start;
+    justify-items: left;
+    
 
 }
 h3{
@@ -151,4 +154,19 @@ h6{
     text-align: start;
     padding-top:1%;
     margin-bottom: 60px;
+}
+.ada{
+    display: flex;
+    justify-content: space-between;
+    border: none; 
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+input{
+    border-radius: 20px;
+    padding: 20px;
+    
 }
