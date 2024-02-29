@@ -39,6 +39,7 @@ image{
         border-radius: 25%;
         padding:10px ;
         border: none;
+
         
     }
    #image{
@@ -64,6 +65,8 @@ flex-direction: column;
 padding-left: 90px;
 text-justify: auto;
 padding: auto;
+display: flex;
+grid-template-rows: subgrid;
 
 
 
@@ -128,4 +131,24 @@ padding-left: 90px;
 }
 h4{ 
     color: black;
+}
+.items{
+    display: flex;
+    display: inline-table;
+    justify-content: right;
+    border: none;
+    margin-block: 3%;
+}
+.forms{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    width: 3px;
+    height: 400px;
+}
+h6{
+    padding-left: 52px;
+    text-align: start;
+    padding-top:1%;
+    margin-bottom: 60px;
 }
