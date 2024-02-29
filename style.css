@@ -1,0 +1,131 @@
+.navbar{
+display: flex;
+position: sticky;
+align-items: center;
+justify-content: space-between;
+top: 0px; ;
+background-blend-mode: darken;
+background-size: cover;
+color: black;
+padding: 10px 20px;
+text-align: last center;
+
+
+
+
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+image{
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+    body{
+        background-color:pink;
+        margin: auto;
+        color: #000;
+        padding: 240px;
+        border-style: none;
+    }
+    button{
+        background-color:darkturquoise;
+        color: #000;
+        border-radius: 25%;
+        padding:10px ;
+        border: none;
+        
+    }
+   #image{
+        justify-content: right;
+        width: 500%;
+        margin: auto;
+        height: 60px;
+        float: right;
+        display: flex;
+
+    }
+    .row{
+        text-align: justify;
+padding-left: 90px;
+    }
+    .column{
+        text-indent: center;
+        text-align: center;
+    align-content: center;
+    align-self: center;
+position: absolute;
+flex-direction: column;
+padding-left: 90px;
+text-justify: auto;
+padding: auto;
+
+
+
+    }
+    .more{
+    
+    }
+    #container{ 
+        border: solid 1px;
+        background-color: white;
+        color: whitesmoke;
+        border-style: solid white;
+    }
+    .content{
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        color: black;
+        float: left;
+        flex: 50%;
+    }
+   #image-container{
+    display: flex;
+    width: fit-content;
+   }
+   #form{
+    background-color: pink;
+    border: none;
+    margin: 60px;
+   }
+   h3{
+    color: crimson;
+    text-align: start;
+    padding-left: 90px;
+    padding-top: 60px;
+    
+   }
+   h1{
+    color: black;
+    text-align: start;
+    padding-left: 90px;
+    
+   }
+   p{
+    text-align: start;
+    padding-left: 90px;
+   }
+.photo{
+display: contents ;
+    align-content: right;
+    float: right;
+}
+.main{
+    align-items: start;
+    padding-left: auto;
+
+}
+h3{
+    text-align: start;
+color: crimson;
+padding-left: 90px;
+}
+h4{ 
+    color: black;
+}
